@@ -1,6 +1,7 @@
 <?php session_start(); ?>
 <?php if (empty($_SESSION['email1'])) header ('Location: authorization.php'); ?>
 <?php require_once('logic.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

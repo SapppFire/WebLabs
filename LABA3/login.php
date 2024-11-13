@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
     if (!empty($users)) {
         $check_user = $users[0];
         $_SESSION['email1'] = $check_user['email1'];
+        $_SESSION['is_logged_in'] = true;
         header("Location: main_website.php");
     } else {
         $_SESSION['message'] = "Неверный логин или пароль";

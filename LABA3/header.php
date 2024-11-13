@@ -137,7 +137,7 @@
                     <div class="vert-second"></div>
                 </div>
                 <div class="col">
-                    <a href="main_website.php" target="_blank"><img class="one-section">СЕКРЕТНАЯ СТРАНИЦА</a>
+                    <a href="authorization.php" target="_blank"><img class="one-section">СЕКРЕТНАЯ СТРАНИЦА</a>
                 </div>
             </div>
         </div>

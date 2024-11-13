@@ -18,6 +18,20 @@ $rh_factor = isset($_POST["rh_factor"]) ?  trim($_POST["rh_factor"]) : '';
 if (isset($_POST['submit'])) {
     $err = array();
 
+    // Сохраняем и очищаем все поля
+    $email1 = isset($_POST['email1']) ? trim($_POST['email1']) : '';
+    $password1 = isset($_POST['password1']) ? trim($_POST['password1']) : '';
+    $password_conf = isset($_POST['password_conf']) ? trim($_POST['password_conf']) : '';
+    $full_name = isset($_POST['full_name']) ? trim($_POST['full_name']) : '';
+    $address = isset($_POST['address']) ? trim($_POST['address']) : '';
+    $birthday_date = isset($_POST['birthday_date']) ? trim($_POST['birthday_date']) : '';
+
+    // Проверка на пустоту обязательных полей
+    if (empty($email1) || empty($password1) || empty($password_conf) || empty($full_name) || empty($address) || empty($birthday_date)) {
+        $_SESSION['message'] = "Заполните все обязательные поля!";
+        header("Location: registration.php");
+        exit();
+    }
     // проверям логин
     if (!preg_match("/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])[0-9a-zA-Z!@#$%^&*_-]{6,}$/", $password1)) {
         array_push($err, "Пароль не соответствует требованиям");

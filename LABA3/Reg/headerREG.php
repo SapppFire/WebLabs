@@ -94,7 +94,7 @@
                         <a href="https://www.forumhouse.ru/journal/themes" target="_blank"><img class="one-section">ТЕМЫ НЕДЕЛИ</a>
                         <a href="https://www.forumhouse.ru/journal/articles" target="_blank"><img class="one-section">СТАТЬИ</a>
                         <a href="https://www.forumhouse.ru/journal/videos" target="_blank"><img class="one-section">ВИДЕО</a>
-                        <a href="https://www.forumhouse.ru/journal/explainers" target="_blank"><img class="one-section">СЕКРЕТНАЯ СТРАНИЦА</a>
+                        <a href="authorization.php" target="_blank"><img class="one-section">СЕКРЕТНАЯ СТРАНИЦА</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                     <div class="vert-second"></div>
                 </div>
                 <div class="col">
-                    <a href="main_website.php" target="_blank"><img class="one-section">СЕКРЕТНАЯ СТРАНИЦА</a>
+                    <a href="authorization.php" target="_blank"><img class="one-section">СЕКРЕТНАЯ СТРАНИЦА</a>
                 </div>
             </div>
         </div>
