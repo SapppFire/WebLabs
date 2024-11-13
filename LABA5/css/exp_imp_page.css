@@ -1,0 +1,14 @@
+.export_and_import{
+    height: 370px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.export{
+    position: block;
+}
+.import{
+    margin-top: 50px;
+    position: block;
+    width: 50%;
+}
